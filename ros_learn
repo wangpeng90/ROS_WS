@@ -1,0 +1,7 @@
+1、创建ROS工作空间
+mkdir -p ros_ws/src
+cd ros_ws/src
+catkin_init_workspace
+cd ..
+catkin_make
+
