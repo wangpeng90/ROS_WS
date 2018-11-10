@@ -52,4 +52,5 @@ Under "**rslidar_pointcloud/data**" directory, you can find the lidar data files
 If you have more than one RSLIDAR, you can create new sub-directories under the "**rslidar_pointcloud/data/**", and put the data files into it.Then you need rewrite the launch file to start you lidar. We have put an example launch file "two_lidar.launch" to load two lidars together for reference.
 
 ###Recorder Rs-lidar-data
+
 rosbag record -O out /lidar_points
